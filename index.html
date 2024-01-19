@@ -8,7 +8,9 @@
     <script src="form.js"></script>
 </head>
 <body>
-    <form  onsubmit="return validate()" action="https://sheetdb.io/api/v1/a9xfbggz1tndx" method="POST" id="sheetdb-form">
+   <!-- Update the form action to use CORS Anywhere -->
+<form onsubmit="return validate()" action="https://cors-anywhere.herokuapp.com/https://sheetdb.io/api/v1/a9xfbggz1tndx" method="POST" id="sheetdb-form">
+
         <h2>Student Login</h2>
         <input type="text" name="data[User Name]" id="uname" placeholder="User name" > 
         <span id="msg1" style="color: red;"></span> <br><br>
