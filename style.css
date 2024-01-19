@@ -7,10 +7,7 @@ html, body{
     color: rgb(0, 0, 0);
 }
 
-div{
-    margin: 0;
-    padding: 0;
-}
+
 form {
     width: 350px;
     margin: 20px auto;
