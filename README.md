@@ -1,2 +1,2 @@
 # Student-Login-Details.github.io
-Simple Student Login from with using HTML,CSS,JavaScript and SheetDB API.
+Custome HTML form data to Google Sheet.
